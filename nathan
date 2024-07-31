@@ -1,0 +1,48 @@
+/*Criando novo usuario no servidor */
+create user 'Daniel.Gomes'@'localhost' identified by'123456';
+create user 'tiago.lima'@'localhost' identified by'123456';
+create user 'luane.gabrielly'@'localhost' identified by'123456';
+create user 'izabella.oliveira'@'localhost' identified by'123456';
+create user 'lara.rodrigues'@'localhost' identified by'123456';
+
+/*Aplicando permissao de consulta a todos os arquivos/bancos no servidor*/
+grant select
+on *.*
+to DanielGomes@localhost;
+
+/*Aplicando permissao de inserçao em todas as tabelas do banco*/
+grant insert
+on bd_caso_estudo_vendas.*
+to DanielGomes@localhost;
+
+/*Aplicando permissao de inserçao em tabelas definidas*/
+grant insert
+on bd_caso_estudo_vendas.tb_prod
+to DanielGomes@localhost;
+
+
+grant
+select (cli_cod,cli_nome,cli_cpf),
+update(cli_end_cep)
+on bd_caso_estudo_vendas.tb_cli
+to DanielGomes@localhost;
+
+grant insert,update,delete
+on`bd_caso_estudo_vendas` .`tb_func`
+to DanielGomes@localhost;
+
+
+revoke insert,update
+on`bd_caso_estudo_vendas`.`tb_func`
+from DanielGomes@localhost;
+
+
+
+revoke select 
+on`bd_caso_estudo_vendas`.`tb_func`
+to DanielGomes@localhost;
+
+grant insert
+on `bd_caso_estudo_vendas`.`tb_func`
+to DanielGomes@localhost;
+
