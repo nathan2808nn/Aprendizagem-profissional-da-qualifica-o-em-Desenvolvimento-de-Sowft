@@ -1,0 +1,22 @@
+start transaction;
+-- a)
+insert into bd_caso_estudo_vendas.tb_cli(cli_cod, cli_nome, cli_cpf, cli_end_rua, cli_end_num, cli_end_bairro, cli_end_cep)
+values ('2','Cliente Dois','12112112199','Rua Test','199', 'Bairro Test', '1219212');
+
+-- inserindo compra b)
+insert into bd_caso_estudo_vendas.tb_compra(compra_cod, compra_cli_cod, compra_func_cod, compra_qtd_cod)
+values(2,2,1,2)
+
+-- inserindo produto c)
+insert into bd_caso_estudo_vendas.tb_prod(prod_cod,prod_forn_cod,prod_desc,prod_vlr)
+values (26,1,'Quatro',20);
+insert into bd_caso_estudo_vendas.tb_prod(prod_cod,prod_forn_cod,prod_desc,prod_vlr)
+values (26,1,'Cinco',30);
+
+-- n° de venda inserida  d)
+-- atualizaçao da tabela produtos da venda, inserindo produtos associados a venda e) 
+insert into bd_caso_estudo_vendas.tb_prod_comp(prod_cod,compra_cod)
+values (12,3);
+insert into bd_caso_estudo_vendas.tb_prod_comp(prod_cod,compra_cod)
+values (10,3);
+commit:
