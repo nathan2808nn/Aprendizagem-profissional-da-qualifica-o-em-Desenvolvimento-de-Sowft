@@ -17,6 +17,6 @@ placa varchar(10) not null unique,
 ano int not null,
 cor VARCHAR (20),
 id_modelo INT,
-STATUS ENUM(' Disponivel','locxado','Em Manuteção')default 'Disponivel',
+STATUS ENUM(' Disponivel','locado','Em Manuteção')default 'Disponivel',
 foreign key (id_modelos) references Modelos (id) 
 );
