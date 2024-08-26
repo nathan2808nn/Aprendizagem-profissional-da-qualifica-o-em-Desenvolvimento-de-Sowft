@@ -1,0 +1,22 @@
+/*01.Criando Banco De Dadoas - Arquivo*/
+create database AutoVIALocadora;
+/*Criando  Tabelas*/
+CREATE TABLE Marcas (
+id INT auto_increment primary key,
+nome VARCHAR(50) NOT NULL UNIQUE
+);
+CREATE TABLE Modelos (
+id INT auto_increment primary key,
+nome VARCHAR (50) NOT NULL,
+id_marca INT,
+foreign key (id_marca) references Marcas(id)
+);
+CREATE TABLE Veiculos (
+id INT AUTO_INCREMENT primary key,
+placa varchar(10) not null unique,
+ano int not null,
+cor VARCHAR (20),
+id_modelo INT,
+STATUS ENUM(' Disponivel','locxado','Em Manuteção')default 'Disponivel',
+foreign key (id_modelos) references Modelos (id) 
+);
