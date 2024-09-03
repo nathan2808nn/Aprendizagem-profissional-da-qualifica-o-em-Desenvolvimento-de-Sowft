@@ -1,0 +1,32 @@
+/* Programação de Banco De Dados 
+Funções  e operadores  de String e expressões 
+*/
+-- 01. Exibindo apenas o OLÁ mundo
+select "Olá Mundo";
+
+-- 01.1 A função CONCAT realiza a concatenação de três strings
+select concat("Olá"," 2024","mundo");
+-- 01.2 A função LOWER converte as letras maiúsculas 'em letras minúsculas
+select lower(" Converte  TUDO para minúsculo");
+
+-- 01. 3 A função LPAD ( left pad) acrescenta zeros (terceiro argumento) á string "123"]
+select LPAD('123', 4,'0');
+
+
+-- 01.4Exibe string  com espaços nas extremidades 
+select 'string com espaços nas extremidades';
+
+
+-- 01.05 A função TRIM remove os espaços em branco das extremidades da string
+select TRIM(' string com espaços nas extremidas ');
+
+-- 01.6 A função REGEXP_SUBSTR procura um determinado padrão (segundo argumento) numa string informada (primeiro argumento)
+select regexp_substr ('tem um número 12 no meio desta string', '\\d+');
+
+-- 02. Criando nova tabela
+CREATE TABLE clientes_experimentos (
+id INT PRIMARY KEY,
+nome_completo VARCHAR(255),
+email VARCHAR(255),
+telefone VARCHAR(20)
+);
