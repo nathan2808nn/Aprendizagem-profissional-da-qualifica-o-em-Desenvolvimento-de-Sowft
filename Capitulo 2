@@ -1,0 +1,139 @@
+<!-- Desenvolvimento Web com Prof Hudson
+aluno:
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <!--Configuraçoes e metadados-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Primeira Página</title>
+</head>
+
+<body>
+    <!--titulos-->
+ <h1>Olá Mundo</h1>
+<!--paragrafo-->
+<p>Esta é minha primeira página web</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <title>Meu Primeiro Desfaio HTML</title>
+ <h1>Olá, Mundo do DDesnvolvimento Web!</h1>   
+ <p>Este é o meu primeiro desafio  de criaçao de uma página HTML.</p>
+
+ <!--Hedings -->
+ <h1>Meu blog de viagens</h1>
+  <h2>Destinos Populares</h2>
+<h3>Europa</h3>
+<h4>Itália</h4>
+<!--Parágrafo-->
+<p>Descubra as belezas da Itália,desde suas cidades históricas até suas paisagens deslumbrantes.</p>
+<h3>Ásia</h3>
+<h4>Japão</h4>
+<p>Explore a rica cultura e as inovaçoes tecnológicas do Japão.</p>
+<!--pará<grafo-->
+    <P>Estew é um exemplo de parágrafo no HTML.ele introduz o conceito de blocos
+         de texto,fundamentias para estruturação do conteúdo em uma página web.
+         Parágrafos ajudam a separar visualmente diferentes ideias ou seção de texto,
+         tornando o conteudo mais facil de ler e navegar </P>
+
+<p>Ao criar conteúdo para a web ,é importante considerar como os parágrafos 
+    são usados para guiar o leitor através do seu texto,uma boa pratica e 
+    focar em uma idea unica ideia de parágrafo,utilizando frases claras e diretas.
+</p>
+<!--Atributos -->
+<!--Atributos-->
+<div id="secao-principal"></div>
+
+<p class= "texto_destaque"></p>
+
+<img src="img/img1.jpg" alt="Descrição"/>
+
+<!---imagens-->
+<img src="img/img2.jpg" alt="Descrição da imagem"/>
+
+<!---imagem externa-->
+<img
+src="https://observatoriodegames.uol.com.br/wp-content/uploads/2023/04/Super-Mario-1024x768.jpg"
+alt="Descrição da imagem externa"/>
+
+<!--Listas-->
+<li>iniciar computador</li>
+<li>Abrir navegador</li>
+<li>Acessar o site  desejado</li>
+<ol>
+<ul>
+<li>Maçãs</li>
+<li>Bananas</li>
+<li>Laranjas </li>
+</ul>
+<ul>
+<li>
+Frutas
+<ul>
+<li>Maçãs</li>
+<li>Bananas</li>
+</ul>
+<li>
+verduras
+<ul>
+    <li>Espinafre
+        <li>Alface </li>
+    </ul>
+    </li>
+</ul>
+<!--Elementos para formação-->
+<p>
+    <strong>Texto importante</strong>,geranlmente usado para indicar forte
+    enfase.<b>Texto apenas em negrito</b>sem implicar maior importancia.
+    </p>
+    <p>
+        <em>Enfatizado</em>,geralmente para indicar enfase moderada.
+        <i>Texto rm itálico</i> para fins de estilo.
+    </p>
+    <p>
+        <u>Texto sublinhado</u> usado para indicar adições ou para fins
+        estilisticos.
+    </p>
+    <p><s>Texto riscad</s> para  mostrar remoção ou correção.</p>
+    <p><mark>Texto destacado</mark> para chamar a atenção</p>
+    <p>
+        <small>Texto em tamanho menor</small>para notas de rodapé ou detalhes.
+    </p>
+    <!--Comentarios-->
+    <!--Isso e um comentarios simples no HTML-->
+    <p>Este e um paragrafo visivel na pagina</p>
+    <!--
+        Este e um comentario de multiplas linhas.
+        Pode ser muito util para explicar partes mais complexas de seu codigo
+        ou para temporariamente desativar parte do codigo.
+    -->
+    <!--Comentarios tambem podem ser usados para deixar lembretes-->
+    <!--Todo: adicionar mais conteudo sobre o tema-->
+    <!--Elementos online de bloco-->
+    <p>
+        Este e um exemplo de <strong>elemento online</strong> dentro de um paragrafo
+    </p>
+    <div>
+        Este e um exemplo de
+    </div>elemento em bloco <div>
+    dentro de outro bloco.
+    </div>
+    <p>
+        No exemplo acima, <strong> e um elemento online</strong> que formata
+    </p>
+
+<Body>
+</html>
+</body>
+</html>
