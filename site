@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUMA</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #222222;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            margin: 15px;    
+        }    
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+            transition: color 0.1s;
+        }
+
+        nav ul li a:hover {
+            color: brown;
+            background-color: aqua;
+            border-radius: 20px;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+            height: 1000px;
+        }
+
+        #Home {
+            background-color: beige;
+        }
+
+        #sobre {
+            background-color: lightblue;
+        }
+
+        #contato {
+            background-color: lightgreen;
+        
+        }
+
+        .logo {
+            width: 100px; /* Ajuste o tamanho conforme necessário */
+            margin-bottom: 15px; /* Espaço abaixo da logo */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="PUMA-Logo-01-1.webp" alt="Logo Puma" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#Início">Início</a></li>
+                <li><a href="#Institucional">Institucional</a></li>
+                <li><a href="#Contato">Contato</a></li>
+                <li><a href="#Trabalhe Conosco">Trabalhe Conosco</a></li>
+            
+            </ul>
+        </nav>
+    </header>
+
+    <section id="Início">
+        <h1>Bem-vindo à PUMA</h1>
+        <h4>É com grande entusiasmo que lhe damos as boas-vindas ao universo da Puma, uma marca que representa inovação, performance e estilo. Fundada em 1948, a Puma tem se destacado por sua dedicação ao esporte e à moda, sempre buscando criar produtos que inspirem atletas e amantes do esporte ao redor do mundo.
+
+            Aqui, você encontrará uma ampla gama de produtos, desde calçados e roupas até acessórios, todos projetados com a mais alta qualidade e tecnologia. Nossos produtos são pensados para acompanhar você em todos os momentos, seja em uma corrida, em uma partida de futebol ou no dia a dia.
+            
+            A Puma valoriza a diversidade e a inclusão, e estamos comprometidos em promover um estilo de vida ativo e sustentável. Ao escolher a Puma, você se une a uma comunidade que acredita no poder do esporte para unir pessoas e transformar vidas.
+            
+            Explore nosso mundo e descubra como a Puma pode ajudá-lo a alcançar seus objetivos, enquanto expressa seu estilo único. Bem-vindo à família Puma!</h4>
+    <img src="neymar-chuteiras-puma.jpg" alt="">
+    
+    </section>
+
+    <section id="Institucional">
+        <h1>Institucional</h1>
+        <p>Informações sobre a nossa empresa ou site.</p>
+        <section id="Institucional">
+        
+           
+        
+            <p>A Puma é uma marca global de artigos esportivos, fundada em 1948 na Alemanha. Conhecida por sua inovação e design arrojado, a empresa oferece uma ampla gama de produtos, incluindo calçados, roupas e acessórios. Com um forte compromisso com o desempenho atlético, a Puma colabora com atletas de renome mundial para desenvolver tecnologias que melhoram a performance.
+
+                Além de sua paixão pelo esporte, a marca valoriza a sustentabilidade, implementando práticas ecológicas em sua produção. A Puma busca inspirar pessoas a se moverem e a expressarem sua individualidade por meio do esporte. Com uma presença marcante em diversas modalidades, a marca se destaca tanto em competições quanto na moda urbana. O slogan “Forever Faster” reflete seu espírito dinâmico e inovador. A Puma continua a ser uma líder no setor, sempre em busca de novos desafios e conquistas.</p>
+            <img src="Design-sem-nome-2-1.png" alt="">
+        </section>
+        
+    </section>
+
+    <section id="Contato">
+        <h1>Contato</h1>
+        <p>Detalhes para entrar em contato.</p> 
+    </section>
+
+    <section id="Trabalhe Conosco">
+        <h1>Trabalhe Conosco</h1>
+        <p>Detalhes para entrar em contato.</p> 
+    </section>
+</body>
+</html>
