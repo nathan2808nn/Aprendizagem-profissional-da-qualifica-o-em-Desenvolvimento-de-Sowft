@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+header {
+    background-color: #222222;
+    padding: 20px 0px;
+}
+
+nav ul  {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 15px;
+}
+
+nav ul li a{
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   padding: 5px 10px;
+   transition: color 0.1s;
+}
+nav ul li a:hover{
+    color: brown;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+section{
+    padding: 60px 20px;
+    text-align: center;
+    height: 1000px;
+}
+
+#Home{
+    background-color: beige;
+}
+
+#sobre{
+    background-color: lightblue;
+}
+
+
+#contato{
+    background-color: lightgreen;
+}
+    
