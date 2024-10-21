@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodapé Adidas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5; /* Cor de fundo suave */
+        }
+        footer {
+            background-color: #000; /* Cor de fundo preta */
+            color: #fff; /* Cor do texto branca */
+            text-align: center; /* Alinhamento centralizado */
+            padding: 40px 20px; /* Espaçamento interno */
+        }
+        table {
+            margin: 20px auto; /* Centraliza a tabela */
+            border-collapse: collapse; /* Remove espaçamento entre bordas */
+        }
+        td, th {
+            border: 1px solid #444; /* Borda escura para a tabela */
+            padding: 10px; /* Espaçamento interno das células */
+            text-align: center; /* Alinha texto ao centro */
+            color: #fff; /* Cor do texto na tabela */
+        }
+        a {
+            color: #fff; /* Cor dos links */
+            text-decoration: none; /* Remove o sublinhado */
+        }
+        a:hover {
+            text-decoration: underline; /* Sublinha ao passar o mouse */
+        }
+        img {
+            max-width: 100px; /* Ajusta o tamanho da imagem */
+            height: auto; /* Mantém a proporção da imagem */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Primeiro Rodapé</h1>
+    <p>Este é um exemplo simples de como criar o primeiro rodapé em uma página HTML</p>
+
+    <footer>
+        <p>© 2024 Adidas AG. Todos os direitos reservados.</p>
+        <table>
+            <tr>
+                <th>Contato</th>
+                <th>Redes Sociais</th>
+            </tr>
+            <tr>
+                <td>Email: contato@adidas.com</td>
+                <td>
+                    <a href="https://facebook.com/adidas">Facebook</a><br>
+                    <a href="https://twitter.com/adidas">Twitter</a><br>
+                    <a href="https://instagram.com/adidas">Instagram</a>
+                </td>
+            </tr>
+        </table>
+        <img src="10994325-logotipo-adidas-branco-simbolo-design-de-roupas-icone-abstrato-futebol-ilustracaoial-com-fundo-preto-gratis-vetor.jpg" alt="Logo da Adidas">
+    </footer>
+
+</body>
+</html>
+
