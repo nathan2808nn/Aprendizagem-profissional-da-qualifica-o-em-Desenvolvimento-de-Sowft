@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo tabela </title>
+    <style>
+        table{
+ width: 100%;
+ border-collapse: 1px solid black;
+ padding: 8px;
+ text-align: center;
+        }
+        th{
+  border:2px solid black;
+  padding:10px;
+  background-color: #004d40;
+  color: rgb(24, 10, 10 );
+
+        }
+        </style>
+    <h1>Tabela</h1>
+    <table style="width 100%;border-collapse:collapse;">
+       
+ <tr>  
+   <th>Código</th>
+   <th>Produto</th>
+   <th>Categoria</th>
+   <th>Quantidade</th>
+   <th>Preço Unitártio</th>
+   <th>Preço Total</th>
+   <th>Fornecedor</th>
+   <th>Data de Compra</th>
+   <th>Data de Validade</th>
+   <th>Status</th>
+ </tr>
+  
+</head>
+<body>
+    
+</body>
+</html>
